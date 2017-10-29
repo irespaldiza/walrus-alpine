@@ -3,7 +3,7 @@ Walrus is my develop center in a [Docker](https://www.docker.com/) container. Th
 
 This image has installed [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) so you can launch containers with different applications or programming languages. Vim is the default editor.
 
-This image is created from [Alpine Linux](https://alpinelinux.org/), if you want to use the image generated with [Debian](http://debian.org) uses [walrus](https://github.com/irespaldiza/walrus).
+This image is created from [Alpine Linux](https://alpinelinux.org/), if you want to use the image generated with [Debian](http://debian.org) use [walrus](https://github.com/irespaldiza/walrus).
 
 ### How to use this image
 To run this image you have to expose the Docker socket to your Docker CI container, by bind-mounting it with the flag -v.
